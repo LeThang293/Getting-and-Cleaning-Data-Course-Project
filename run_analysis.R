@@ -60,4 +60,4 @@ names(merge_set) <- gsub("^f", "frequency", names(merge_set))
 # Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 merge_avg_by_act_sub = ddply(merge_set, c("Subject","Activity_ID","Activity_Label"), numcolwise(mean))
 
-write.table(tidy_data, file = "./data/tidy_data.txt")
+write.table(merge_avg_by_act_sub, file = "./data/tidy_data.txt")
