@@ -19,4 +19,4 @@ In this repository you will find the following files:
 - Extract and place data source in the folder "data"
 - Download "run_analysis.R" for this project and place under "data/UCI HAR Dataset"
 - From R studio run the command:  source('~/data/UCI HAR Dataset/run_analysis.R')
-- Check the output "tity_data.txt" in the folder "tidy"
+- Check the output "tity_data.txt" in the folder "data"
