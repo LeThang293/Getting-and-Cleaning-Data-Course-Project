@@ -46,7 +46,9 @@ Tidy data set is grouped by
 - Subject
 - Activity_ID
 - Activity_Label
+
 Variables:
+
 - timeBodyAccelerator-mean()-X
 - timeBodyAccelerator-mean()-Y
 - timeBodyAccelerator-mean()-Z
